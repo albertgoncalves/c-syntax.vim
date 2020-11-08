@@ -279,6 +279,6 @@ syn keyword cType usize u8 u16 u32 u64 i8 i16 i32 i64 f32 f64
 
 " Types
 syn match Type "[ (][A-Z]\+[a-z][A-Za-z0-9]*$"
-syn match Type "[ (][A-Z]\+[a-z][A-Za-z0-9]*[ *;,)]"
 syn match Type "^[A-Z]\+[a-z][A-Za-z0-9]*$"
-syn match Type "^[A-Z]\+[a-z][A-Za-z0-9]*[ *;,)]"
+syn match Type "[ (][A-Z]\+[a-z][A-Za-z0-9]*[ *;,)\[]"me=e-1
+syn match Type "^[A-Z]\+[a-z][A-Za-z0-9]*[ *;,\[]"me=e-1
