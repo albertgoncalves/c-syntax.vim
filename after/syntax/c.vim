@@ -47,7 +47,7 @@ syn keyword cAnsiFunction   vfwprintf swscanf swprintf
 syn keyword cAnsiFunction   fwscanf fwprintf zonetime
 syn keyword cAnsiFunction   strfxtime strftime localtime
 syn keyword cAnsiFunction   gmtime ctime asctime
-syn keyword cAnsiFunction   time mkxtime mktime
+syn keyword cAnsiFunction   mkxtime mktime
 syn keyword cAnsiFunction   difftime clock strlen
 syn keyword cAnsiFunction   strerror memset strtok
 syn keyword cAnsiFunction   strstr strspn strrchr
