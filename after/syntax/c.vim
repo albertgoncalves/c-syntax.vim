@@ -281,4 +281,4 @@ syn keyword cDefined NULL
 " NOTE: See `https://vimhelp.org/pattern.txt.html`.
 
 " Types
-syn match Type "\<[A-Z]\+[a-z][A-Za-z0-9_]*\>"
+syn match Type "\<[A-Z][A-Z_]*[a-z][A-Za-z0-9_]*\>"
