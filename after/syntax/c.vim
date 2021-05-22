@@ -47,7 +47,7 @@ syn keyword cAnsiFunction   vfwprintf swscanf swprintf
 syn keyword cAnsiFunction   fwscanf fwprintf zonetime
 syn keyword cAnsiFunction   strfxtime strftime localtime
 syn keyword cAnsiFunction   gmtime ctime asctime
-syn keyword cAnsiFunction   time mkxtime mktime
+syn keyword cAnsiFunction   mkxtime mktime
 syn keyword cAnsiFunction   difftime clock strlen
 syn keyword cAnsiFunction   strerror memset strtok
 syn keyword cAnsiFunction   strstr strspn strrchr
@@ -276,3 +276,9 @@ hi def link cBoolean Boolean
 
 " Bonus!
 syn keyword cType usize u8 u16 u32 u64 i8 i16 i32 i64 f32 f64
+syn keyword cDefined NULL nullptr constexpr
+
+" NOTE: See `https://vimhelp.org/pattern.txt.html`.
+
+" Types
+syn match Type "\<[A-Z][A-Z_]*[a-z][A-Za-z0-9_]*\>"
