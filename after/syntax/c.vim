@@ -276,7 +276,7 @@ hi def link cBoolean Boolean
 
 " Bonus!
 syn keyword cType usize u8 u16 u32 u64 i8 i16 i32 i64 f32 f64
-syn keyword cDefined NULL
+syn keyword cDefined NULL nullptr
 
 " NOTE: See `https://vimhelp.org/pattern.txt.html`.
 
