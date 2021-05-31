@@ -252,7 +252,8 @@ syn keyword cDefined defined contained containedin=cDefine
 hi def link cDefined cDefine
 
 " Functions
-syn match cUserFunction "\<\h\w*\>\(\s\|\n\)*\((\|<\)"me=e-1 contains=cType,cDelimiter,cDefine
+syn match cUserFunction "\<\h\w*\>\(\s\|\n\)*("me=e-1 contains=cType,cDelimiter,cDefine
+syn match cUserFunction "\<\h\w*\><"me=e-1 contains=cType,cDelimiter,cDefine
 syn match cUserFunctionPointer "(\s*\*\s*\h\w*\s*)\(\s\|\n\)*(" contains=cDelimiter,cOperator
 
 hi def link cUserFunction cFunction
