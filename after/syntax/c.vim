@@ -277,7 +277,7 @@ hi def link cBoolean Boolean
 
 " Bonus!
 syn keyword cType usize u8 u16 u32 u64 i8 i16 i32 i64 f32 f64
-syn keyword cDefined NULL nullptr constexpr template typename
+syn keyword cDefined NULL nullptr null constexpr template typename
 syn keyword cFunction static_cast const_cast reinterpret_cast dynamic_cast
 
 " NOTE: See `https://vimhelp.org/pattern.txt.html`.
